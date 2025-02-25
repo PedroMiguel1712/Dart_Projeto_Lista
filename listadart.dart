@@ -49,7 +49,6 @@ void main() {
   print('O salário atualizado do $colaborador é R\$$novoSalario.');
 }
 
-// Classe Banco
 class Banco {
   late int _saldo;
   final String nomeInstituicao;
@@ -67,7 +66,6 @@ class Banco {
   }
 }
 
-// Classe Pessoa
 class Pessoa {
   late int _idade;
   final String nome;
@@ -85,7 +83,6 @@ class Pessoa {
   }
 }
 
-// Classe Carro
 class Carro {
   String modelo;
   String _marca = '';
@@ -114,7 +111,6 @@ class Carro {
   }
 }
 
-// Classe ContaBancaria
 class ContaBancaria {
   String titular;
   double _saldo;
@@ -144,7 +140,6 @@ class ContaBancaria {
   }
 }
 
-// Classe Aluno
 class Aluno {
   String nome;
   double _nota1;
@@ -166,7 +161,6 @@ class Aluno {
   }
 }
 
-// Classe Produto
 class Produto {
   String nome;
   double _preco;
@@ -190,7 +184,6 @@ class Produto {
   }
 }
 
-// Classe Funcionario
 class Funcionario {
   String nome;
   double _salario = 0;
